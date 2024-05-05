@@ -58,10 +58,10 @@ fn sums(number_1: i32, number_2: i32) -> i32{
     println!("sum of 1 and 2 {}", number_3);
     return number_3;
 }
-fn suma(number_1: i32, number_2: i32)-> i32{
+fn suma(number_1: i32, number_2: i32){
     let number_3: i32 = number_1 + number_2;
     println!("sum of 1 and 2 {}", number_3);
-    number_3
+    number_3;
 }
     
    
