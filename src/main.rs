@@ -41,27 +41,44 @@ fn main(){
     //  println!("{}",text);
     // println!("{}",text1);
 
-sum(2,4);
-sums(3,8);
-suma(4,6);
+// sum(2,4);
+// sums(3,8);
+// suma(4,6);
 
 
 
-}
-fn sum(number_1: i32, number_2: i32){
-    let number_3: i32 = number_1 + number_2;
-    println!("sum of 1 and 2 {}", number_3);
-}
+// }
+// fn sum(number_1: i32, number_2: i32){
+//     let number_3: i32 = number_1 + number_2;
+//     println!("sum of 1 and 2 {}", number_3);
+// }
 
-fn sums(number_1: i32, number_2: i32) -> i32{
-    let number_3: i32 = number_1 + number_2;
-    println!("sum of 1 and 2 {}", number_3);
-    return number_3;
-}
-fn suma(number_1: i32, number_2: i32){
-    let number_3: i32 = number_1 + number_2;
-    println!("sum of 1 and 2 {}", number_3);
-    number_3;
-}
+// fn sums(number_1: i32, number_2: i32) -> i32{
+//     let number_3: i32 = number_1 + number_2;
+//     println!("sum of 1 and 2 {}", number_3);
+//     return number_3;
+// }
+// fn suma(number_1: i32, number_2: i32)-> i32{
+//     let number_3: i32 = number_1 + number_2;
+//     println!("sum of 1 and 2 {}", number_3);
+//     number_3
+// }
     
-   
+ //Making test
+
+ let mut m = String::from("I have done my exams"); 
+ //adding a string literal 
+
+ m.push_str(" for this semester");
+ println!("{}",m); 
+ }
+
+
+
+
+
+
+
+
+
+ 
