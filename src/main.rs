@@ -70,6 +70,9 @@ fn main(){
  //adding a string literal 
 
  m.push_str(" for this semester");
+
+ let s = m.clone();
+ println!("m is {} and s is {}",m,s);
  println!("{}",m); 
  }
 
