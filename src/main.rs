@@ -193,21 +193,45 @@
 
 // }
 
+// use std::io;
+
+// fn main() {
+//     println!("Enter an integer:");
+
+//     let mut input = String::new();
+//     io::stdin().read_line(&mut input).expect("Failed to read line");
+
+//     let num: i32 = input.trim().parse().expect("Please enter a valid integer");
+
+//     let mut i = 0;
+//     while i <= num {
+//         println!("{}", i);
+//         i += 1;
+//     }
+// }
+
 use std::io;
 
 fn main() {
+    
     println!("Enter an integer:");
 
+   
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read line");
 
     let num: i32 = input.trim().parse().expect("Please enter a valid integer");
+    
+    let subtraction_result = num - 1;
+    let addition_result = num + 1;
+    let multiplication_result = num * 2; // Multiplying by 2 for demonstration
+    let division_result = num / 2; // Dividing by 2 for demonstration
 
-    let mut i = 0;
-    while i <= num {
-        println!("{}", i);
-        i += 1;
-    }
+    // Print the results
+    println!("Subtraction: {}", subtraction_result);
+    println!("Addition: {}", addition_result);
+    println!("Multiplication: {}", multiplication_result);
+    println!("Division: {}", division_result);
 }
 
 
