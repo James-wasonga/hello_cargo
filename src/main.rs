@@ -178,18 +178,36 @@
 //         i += 1;
 //     }
 // }
- use std::io;
+//  use std::io;
 
-fn main(){
-  println!("Enter an integer");
+// fn main(){
+//   println!("Enter an integer");
   
-  let mut input = String::new();
-  io::stdin().read_line(&mut input).expect("Failed to read the value");
+//   let mut input = String::new();
+//   io::stdin().read_line(&mut input).expect("Failed to read the value");
 
-  let num: i32 = input.trim().parse().expect("Please enter a valid input");
-   for i in 0.. num {
-      println!("{}", i);
-   }
+//   let num: i32 = input.trim().parse().expect("Please enter a valid input");
+//    for i in 0.. num {
+//       println!("{}", i);
+//    }
 
+// }
+
+use std::io;
+
+fn main() {
+    println!("Enter an integer:");
+
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read line");
+
+    let num: i32 = input.trim().parse().expect("Please enter a valid integer");
+
+    let mut i = 0;
+    while i <= num {
+        println!("{}", i);
+        i += 1;
+    }
 }
+
 
