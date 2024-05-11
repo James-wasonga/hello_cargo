@@ -82,14 +82,18 @@
 
 
 fn main() {
- let mut element = [1,2,3,4,5,6,7,8,9];
-//  let mut index = 5;
+//  let mut element = [1,2,3,4,5,6,7,8,9];
+// //  let mut index = 5;
 
-//  while index != 0{
-//    println!("looping through index {index} item in array{}",array[index]);
-//    index -=1;
-//  }
-for element in element{
-   println!("The value is: {element}");
+// //  while index != 0{
+// //    println!("looping through index {index} item in array{}",array[index]);
+// //    index -=1;
+// //  }
+// for element in element{
+//    println!("The value is: {element}");
+// }
+
+for item in 1..20{
+   println!("count item {item}");
 }
 }
