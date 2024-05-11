@@ -128,11 +128,25 @@
 // }
 
 // }
-fn main(){
+// fn main(){
 
-for num in 1 .. 10{
-   if num % 3 == 0{
-   println!("The number is {}",num);
+// for num in 1 .. 10{
+//    if num % 3 == 0{
+//    println!("The number is {}",num);
+//    }
+// }
+// }
+
+fn main(){
+   let a = [5,10,15,20,25];
+
+   for element in a{
+      if element < 10 {
+         println!("The num is less than 10");
+      }
+      if element > 20 {
+         println!("The num is greater than 20");
+      }
    }
-}
+ 
 }
