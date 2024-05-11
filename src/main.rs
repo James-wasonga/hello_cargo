@@ -137,16 +137,24 @@
 // }
 // }
 
-fn main(){
-   let a = [5,10,15,20,25];
+// fn main(){
+//    let a = [5,10,15,20,25];
 
-   for element in a{
-      if element < 10 {
-         println!("The num is less than 10");
-      }
-      if element > 20 {
-         println!("The num is greater than 20");
-      }
-   }
+//    for element in a{
+//       if element < 10 {
+//          println!("The num is less than 10");
+//       }
+//       if element > 20 {
+//          println!("The num is greater than 20");
+//       }
+//    }
  
+// }
+
+//an array that print out items in reverse from 50 to 1
+fn main(){
+for num in (1 .. 51).rev(){
+   
+   println!("{num}");
+}
 }
