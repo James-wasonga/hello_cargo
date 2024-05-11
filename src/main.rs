@@ -81,19 +81,58 @@
 // }
 
 
-fn main() {
-//  let mut element = [1,2,3,4,5,6,7,8,9];
-// //  let mut index = 5;
+// fn main() {
+// //  let mut element = [1,2,3,4,5,6,7,8,9];
+// // //  let mut index = 5;
 
-// //  while index != 0{
-// //    println!("looping through index {index} item in array{}",array[index]);
-// //    index -=1;
-// //  }
-// for element in element{
-//    println!("The value is: {element}");
+// // //  while index != 0{
+// // //    println!("looping through index {index} item in array{}",array[index]);
+// // //    index -=1;
+// // //  }
+// // for element in element{
+// //    println!("The value is: {element}");
+// // }
+
 // }
 
-for item in 1..20{
-   println!("count item {item}");
+// //fn main{
+//    for item in 1..20{
+//       println!("count item {item}");
+//    }
+// }
+
+
+//A program that prints even numbers
+
+// fn main(){
+// //   let num  = [1,2,3,4,5,6,7,8,9,10];
+
+// for num in 0 ..10 {
+
+//   if num % 2 == 0{
+//    println!("The even num is {}",num);
+//   }
+// }
+// }
+
+// fn main(){
+//    let num = [1,2,3,4,5,6,7,8,9,10];
+//    let mut b:usize = 0;
+
+//    while b <= 10{
+//       if num[b] % 2 == 0 {
+//       println!("{}",num[b]);
+      
+//    } 
+//    b+=1;
+// }
+
+// }
+fn main(){
+
+for num in 1 .. 10{
+   if num % 3 == 0{
+   println!("The number is {}",num);
+   }
 }
 }
