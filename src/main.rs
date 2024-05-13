@@ -309,21 +309,37 @@
 // }
 
 
-struct user{
-   name: String,
-   email: String,
-   string_in_count: u32,
-}
+// struct user{
+//    name: String,
+//    email: String,
+//    string_in_count: u32,
+// }
+
+// fn main(){
+
+//    let user1 = user {
+
+//       name: String::from("James Wasonga"),
+//       email: String::from("jameswasonga22@gmail.com"),
+//       string_in_count: 1, 
+//    };
+
+//    println!("{}",user1.name);
+
+// }
+
+
+// An example using a stract 
 
 fn main(){
+   let result = area(3,4);
 
-   let user1 = user {
+   println!("The area of the rectangle is {}",result);
 
-      name: String::from("James Wasonga"),
-      email: String::from("jameswasonga22@gmail.com"),
-      string_in_count: 1, 
-   };
+   
+}
 
-   println!("{}",user1.name);
+fn area(length: u32, width: u32) -> u32 {
+   length * width
 
 }
