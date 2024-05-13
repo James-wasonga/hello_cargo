@@ -251,49 +251,79 @@
 
 //program to calculate inputs keyed by the users
 
-use std::io;
-
-fn main(){
-
-   println!("Enter First number");
-   
- 
- let mut input = String::new();
- io::stdin().read_line(&mut input).expect("Failed to read the value in the line ");
- let num1: i32 = input.trim().parse().expect("Enter a valid first number");
-
- println!("Enter second number");
-
- let mut input = String::new();
- io::stdin().read_line(&mut input).expect("Failed to read a valid input from the line");
- let num2: i32 = input.trim().parse().expect("Enter a valid second number");
-
- let addition: i32 = num1 + num2;
- let subtraction: i32 = num1 - num2;
- let multiplication: i32 = num1 * num2;
- let division : i32 = num1 / num2;
-
- if  num1 < num2 || num2 == 0 {
-   println!("Enter a valid numbers (hint: first number should not be zero or less than )");
- }else{
-
- println!("The addition is {addition}");
- println!("The subtraction is {subtraction}");
- println!("The multiplication is {multiplication}");
- println!("The division is {division}");
-
- }
-}
-
 // use std::io;
 
 // fn main(){
 
-//    println!("Enter a number")
+//    println!("Enter First number");
+   
+ 
+//  let mut input = String::new();
+//  io::stdin().read_line(&mut input).expect("Failed to read the value in the line ");
+//  let num1: i32 = input.trim().parse().expect("Enter a valid first number");
 
-//    let mut input = String::new();
-// io::stdin().read_line(&mut input).expect("Failed to read an input");
-// let num: i32 = input.trim().parse().expect("Please enter a valid input");
+//  println!("Enter second number");
 
-// println!("The entered number is {}",num);
+//  let mut input = String::new();
+//  io::stdin().read_line(&mut input).expect("Failed to read a valid input from the line");
+//  let num2: i32 = input.trim().parse().expect("Enter a valid second number");
+
+//  let addition: i32 = num1 + num2;
+//  let subtraction: i32 = num1 - num2;
+//  let multiplication: i32 = num1 * num2;
+//  let division : i32 = num1 / num2;
+
+//  if  num1 < num2 || num2 == 0 {
+//    println!("Enter a valid numbers (hint: first number should not be zero or less than )");
+//  }else{
+
+//  println!("The addition is {addition}");
+//  println!("The subtraction is {subtraction}");
+//  println!("The multiplication is {multiplication}");
+//  println!("The division is {division}");
+
+//  }
 // }
+
+// use std::io;
+
+// // fn main(){
+
+// //    println!("Enter a number")
+
+// //    let mut input = String::new();
+// // io::stdin().read_line(&mut input).expect("Failed to read an input");
+// // let num: i32 = input.trim().parse().expect("Please enter a valid input");
+
+// // println!("The entered number is {}",num);
+// // }
+
+//slicing  
+// fn main(){
+
+//    let s = String::from("Hello World");
+//   let hello = &s[0..5];
+//   let world = &s[6..11];
+//   println!("{hello}");
+
+// }
+
+
+struct user{
+   name: String,
+   email: String,
+   string_in_count: u32,
+}
+
+fn main(){
+
+   let user1 = user {
+
+      name: String::from("James Wasonga"),
+      email: String::from("jameswasonga22@gmail.com"),
+      string_in_count: 1, 
+   };
+
+   println!("{}",user1.name);
+
+}
