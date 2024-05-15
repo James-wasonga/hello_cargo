@@ -331,15 +331,42 @@
 
 // An example using a stract 
 
-fn main(){
-   let result = area(3,4);
+// fn main(){
+//    let result = area(3,4);
 
-   println!("The area of the rectangle is {}",result);
+//    println!("The area of the rectangle is {}",result);
 
    
-}
+// }
 
-fn area(length: u32, width: u32) -> u32 {
-   length * width
+// fn area(length: u32, width: u32) -> u32 {
+//    length * width
+
+// }
+
+Rectangle{
+   hieght: u32,
+   width: u32,
+}
+fn main (){
+  
+   let rect1 = Rectangle{
+      hieght: 30,
+      width: 50,
+   };
+   let rect2 = Rectangle{
+      width: 10,
+      hieght: 40,
+   };
+    
+    let rect3 = Rectangle{
+      width: 60,
+      hieght: 45,
+
+    };
+
+    println!("Can rect1 hold rect2? {}", rect1.can_hold(&rect2));
+    println!("Can rect1 hold rect3? {}", rect1.can_hold(&rect3));
+
 
 }
