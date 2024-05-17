@@ -11,4 +11,3 @@ program that takes in an input(integer) from a terminal , printout from 0 - inte
 # Task3
 mathematical operations
 
-Create a program that takes in a input from the terminal and then subtracts 1 from the input, adds 1 to the input ,multiplication and division (any number);

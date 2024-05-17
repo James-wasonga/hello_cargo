@@ -273,8 +273,8 @@
 //  let multiplication: i32 = num1 * num2;
 //  let division : i32 = num1 / num2;
 
-//  if  num1 < num2 || num2 == 0 {
-//    println!("Enter a valid numbers (hint: first number should not be zero or less than )");
+//  if  num2 == 0 {
+//    println!("Enter a valid numbers (hint: second number should not be zero )");
 //  }else{
 
 //  println!("The addition is {addition}");
@@ -343,7 +343,7 @@
 //    length * width
 
 // }
-
+mod main;
 Rectangle{
    hieght: u32,
    width: u32,
