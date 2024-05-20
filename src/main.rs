@@ -329,20 +329,20 @@
 // }
 
 
-// An example using a stract 
+An example using a stract 
 
-// fn main(){
-//    let result = area(3,4);
+fn main(){
+   let result = area(3,4);
 
-//    println!("The area of the rectangle is {}",result);
+   println!("The area of the rectangle is {}",result);
 
    
-// }
+}
 
-// fn area(length: u32, width: u32) -> u32 {
-//    length * width
+fn area(length: u32, width: u32) -> u32 {
+   length * width
 
-// }
+}
 mod main;
 Rectangle{
    hieght: u32,
